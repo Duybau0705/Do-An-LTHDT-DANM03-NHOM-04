@@ -1,0 +1,71 @@
+Đây là hướng dẫn truy xuất dữ liệu file text của chương trình quản lý thư viện:
+*Lưu ý: Phải làm đúng các bước theo hướng dẫn nếu không chương trình sẽ không đọc ghi được dữ liệu
+-Dữ liệu chương trình hiện tại được lưu trong ổ E:
++Dữ liệu về sách trong thư viện 	E:\\Sach1.txt
++Dữ liệu sách mượn 			E:\\Sach2.txt
++Dữ liệu sách mượn đọc			E:\\Sach3.txt
+-Cần phải tạo các file text (Sach1, Sach2, Sach3) ở trong ổ E: để đọc ghi dữ liệu chương trình
+*Hoặc nếu lưu các file text ở vị trí khác thì phải gán đúng đường dẫn vào trong chương trình để có thể đọc được dữ liệu
+-Dữ liệu xuất ra được tự động lưu vào vị trí có đường dẫn được gán trong chương trình (mặc định hiện tại là E:\\kq1.txt, E:\\kq2.txt, E:\\kq3.txt)
+
+
+HƯỚNG DẪN CÁCH NHẬP
+*Lưu ý: Phải nhập đúng theo mẫu hướng dẫn để chương trình hoạt động nếu không chương trình sẽ không đọc ghi được dữ liệu
+Các thông tin của sách được chia ra thành từng dòng nhập theo thứ tự, xuống dòng để thêm một thông tin khác
+Khi nhập xong thông tin của cuốn sách này, xuống dòng sẽ là thông tin của cuốn sách khác
+
++ Nhập sách vào thư viện (Sach1)
+   |Nội dung cần nhập| 	   |Chức năng|
+01				[Mã số sách]
+Hat giong tam hon		[Tên sách]
+Hanh phuc			[Chủ đề]
+Nguyen Xuan An		[Tên Tác giả]
+Kim Dong			[Tên nhà xuất bản]
+12				[Ngày xuất bản]
+5				[Tháng xuất bản]
+2018				[Năm xuất bản]
+300				[Số trang]
+500				[Số bản lưu thư viện]
+*Xuống dòng nhập tiếp thông tin cuốn sách khác như trên
+
++ Nhập sách mượn (Sach2)
+   |Nội dung cần nhập| 	   |Chức năng|
+01				[Mã số sách]
+Hat giong tam hon		[Tên sách]
+Hanh phuc			[Chủ đề]
+Nguyen Xuan An		[Tên Tác giả]
+Kim Dong			[Tên nhà xuất bản]
+12				[Ngày xuất bản]
+5				[Tháng xuất bản]
+2018				[Năm xuất bản]
+300				[Số trang]
+500				[Số bản lưu thư viện]
+20				[Ngày mượn]
+5				[Tháng mượn]
+2022				[Năm mượn]
+20				[Ngày trả]
+6				[Tháng trả]
+2022				[Năm trả]
+*Xuống dòng nhập tiếp cuốn sách khác như trên
+
++ Nhập sách mượn đọc (Sach3)
+   |Nội dung cần nhập| 	   |Chức năng|
+01				[Mã số sách]
+Hat giong tam hon		[Tên sách]
+Hanh phuc			[Chủ đề]
+Nguyen Xuan An		[Tên Tác giả]
+Kim Dong			[Tên nhà xuất bản]
+12				[Ngày xuất bản]
+5				[Tháng xuất bản]
+2018				[Năm xuất bản]
+300				[Số trang]
+500				[Số bản lưu thư viện]
+7				[Giờ mượn]	
+15				[Phút mượn]	
+10				[Giờ hẹn trả]
+15				[Phút hẹn trả]
+*Xuống dòng nhập tiếp cuốn sách khác như trên
+
+
+
+
